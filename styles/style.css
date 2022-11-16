@@ -46,7 +46,7 @@ input.search_bar {
   border: none;
   outline: none;
   padding: 0.45em;
-  border-radius: 5px;
+  border-radius: 10px;
   background: #7c7c7c2b;
   color: white;
 }
