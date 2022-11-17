@@ -23,7 +23,21 @@ let weather = {
     document.querySelector(".description").innerText = description;
     document.querySelector(".humidity").innerText = humidity + " %";
     document.querySelector(".wind").innerText = speed + " m/s";
-  } 
+    /*continue here document.body.style.background.Image = "url('https://source.unsplash.com/1600x900/?" + name + "')"*/
+  },
+  search: function () {
+    this.fetchWeather(document.querySelector(".search_bar").value);
+  }
 };
+
+document.querySelector(".search_button").addEventListener("click", function () {
+  weather.search();
+});
+
+document.querySelector(".search_bar").addEventListener("keyup", function (event) {
+  if (event.key == "Enter") {
+    weather.search();
+  }
+});
 
 //https://www.youtube.com/watch?v=WZNG8UomjSI 26: 16 

@@ -56,8 +56,17 @@ button:hover {
 }
 
 h1 {
-  padding: 20px 0;
   color: white;
   text-shadow: 3px 3px 1px black;
   font-size: 60px;
+  margin-bottom: 0;
+}
+
+.description {
+  text-transform: capitalize;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
 }
