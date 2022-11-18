@@ -10,7 +10,7 @@ body {
   height: 100vh;
   margin: 0;
   background: #222;
-  background-image: url('https://source.unsplash.com/random/?Barcelona&1');
+  background-image: url('https://source.unsplash.com/random');
   background-repeat: no-repeat;
   background-size: cover;
 }
