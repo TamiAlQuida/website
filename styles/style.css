@@ -10,8 +10,9 @@ body {
   height: 100vh;
   margin: 0;
   background: #222;
-  background-image: url('../images/landscape-tree-nature-forest-path-branch-1417458-pxhere.jpg');
+  background-image: url('https://source.unsplash.com/random/?Barcelona&1');
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .card {

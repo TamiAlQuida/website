@@ -23,7 +23,7 @@ let weather = {
     document.querySelector(".description").innerText = description;
     document.querySelector(".humidity").innerText = humidity + " %";
     document.querySelector(".wind").innerText = speed + " m/s";
-    /*continue here document.body.style.background.Image = "url('https://source.unsplash.com/1600x900/?" + name + "')"*/
+    document.body.style.backgroundImage = "url('https://source.unsplash.com/random/? " + name + "&1')";
   },
   search: function () {
     this.fetchWeather(document.querySelector(".search_bar").value);
