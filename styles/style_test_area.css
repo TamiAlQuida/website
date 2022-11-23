@@ -1,0 +1,30 @@
+html {
+  font-size: 18px; /* px means "pixels": the base font size is now 10 pixels high  */
+  font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google fonts */
+  text-align: center;
+}
+
+h1 {
+  padding: 20px 0;
+  color: #2C392F;
+  text-shadow: 3px 3px 1px black;
+  font-size: 60px;
+}
+
+p, li {
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 2;
+}
+
+.editor-note {
+  margin: 0 auto;
+  color: red;
+  width: 500px;
+  border: 1px solid black;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
