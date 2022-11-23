@@ -40,4 +40,7 @@ document.querySelector(".search_bar").addEventListener("keyup", function (event)
   }
 });
 
+/*require('dotenv').config();
+console.log(process.env.API_KEY);*/
+
 //https://www.youtube.com/watch?v=WZNG8UomjSI
