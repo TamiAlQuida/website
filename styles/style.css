@@ -15,6 +15,10 @@ body {
   background-size: cover;
 }
 
+.menu {
+  padding-left: 2em;
+}
+
 .card {
   background: #000000d0;
   color: white;
