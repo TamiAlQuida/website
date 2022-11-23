@@ -17,6 +17,14 @@ body {
 
 .menu {
   padding-left: 2em;
+  margin: 1em;
+  background-color: #000000d0;
+  color: white;
+  width: 100%;
+  border-radius: 30px;
+  padding-right: 2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 .card {
@@ -47,17 +55,22 @@ button {
   transition: 0.2s ease-in-out;
 }
 
+button:hover {
+  background: #7c7c7c6b;
+}
+
 input.search_bar {
   border: none;
   outline: none;
-  padding: 0.45em;
-  border-radius: 10px;
+  padding: 0.7em;
+  border-radius: 20px;
   background: #7c7c7c2b;
   color: white;
+  transition: 0.2s ease-in-out;
 }
 
-button:hover {
-  background: #7c7c7c6b;
+.search_bar:hover {
+  background-color: black;
 }
 
 h1 {
