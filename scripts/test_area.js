@@ -97,8 +97,8 @@ function keepingScore() {
     computersChoice.textContent === 'Stone' || yourChoice.textContent === 'Scissors' &&
     computersChoice.textContent === 'Scissors' || yourChoice.textContent === 'Paper' &&
     computersChoice.textContent === 'Paper') {
-    ComputerScore.textContent = 'Computer score:' + ComputerScoreVariable
-    PlayerScore.textContent = 'Player score:' + PlayerScoreVariable
+    ComputerScore.textContent = 'Computer score: ' + ComputerScoreVariable
+    PlayerScore.textContent = 'Player score: ' + PlayerScoreVariable
   }
 
   else if ((yourChoice.textContent === 'Stone' &&
@@ -106,14 +106,14 @@ function keepingScore() {
     computersChoice.textContent === 'Stone') || (yourChoice.textContent === 'Scissors' &&
     computersChoice.textContent === 'Paper')) {
     PlayerScoreVariable = PlayerScoreVariable + 1
-    ComputerScore.textContent = 'Computer score:' + ComputerScoreVariable
-    PlayerScore.textContent = 'Player score:' + PlayerScoreVariable
+    ComputerScore.textContent = 'Computer score: ' + ComputerScoreVariable
+    PlayerScore.textContent = 'Player score: ' + PlayerScoreVariable
   }
 
   else {
     ComputerScoreVariable = ComputerScoreVariable + 1
-    ComputerScore.textContent = 'Computer score:' + ComputerScoreVariable
-    PlayerScore.textContent = 'Player score:' + PlayerScoreVariable
+    ComputerScore.textContent = 'Computer score: ' + ComputerScoreVariable
+    PlayerScore.textContent = 'Player score: ' + PlayerScoreVariable
   }
 }
 

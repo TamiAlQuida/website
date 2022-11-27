@@ -22,7 +22,7 @@
         <button>I'm not a padawan</button>
       </div>
       <div>
-        <h2>Cool pictures</h2>
+        <h2>Cool picture</h2>
         <img src="images/space.png" alt="picture taken by webb space"> <!--alt reads out for blind people,or shows if src is incorrect-->
         <h2>Me chilling</h2> <!--there are only 6 headings (h6)-->
         <img id="cats" src="images/cat.jpg" alt="picture of a funny cat">
@@ -34,22 +34,29 @@
           </ul>
           <p>my family are my favorites… </p>
         </div>
-        <p>Here is a pretty
+        <p class="link">Here is a pretty
           <a href="https://www.google.com/search?q=cool+cats&sxsrf=ALiCzsaUiUWcoRc_Beulzj4Dy5hUvWBW8A:1660083740029&source=lnms&tbm=isch&sa=X&ved=2ahUKEwikrvzs5br5AhVEEmIAHfJACusQ_AUoAXoECAIQAw&biw=1177&bih=1027&dpr=1.88">
-          Cool link</a></p>
-        <strong id="ComputerScore">Computer score:</strong>
-        <strong id="PlayerScore">Player score:</strong>
-        <p id="BotChoice">BotChoice</p>
-        <p id="PlayerChoice">PlayerChoice</p>
-        <button id="stone">stone</button>
-        <button id="paper">paper</button>
-        <button id="scissors">scissors</button>
-        <script src="scripts/test_area.js"></script> <!--this is where the javascript comes in-->
-        <!--this is where the python comes in-->
-        <py-script>
-        print("python interpreter below:")
-        </py-script> 
-        <py-repl id="my-repl" auto-generate="true"></py-repl> 
+          Cool link</a>
+        </p>
+        <div class="stone_paper_scissors">
+          <h2>Game</h2>
+          <h3 id="ComputerScore">Computer score:</h3>
+          <h3 id="PlayerScore">Player score:</h3>
+          <p id="BotChoice">BotChoice</p>
+          <p id="PlayerChoice">PlayerChoice</p>
+          <button id="stone">stone</button>
+          <button id="paper">paper</button>
+          <button id="scissors">scissors</button>
+        </div>
+        <div class="python_stuff">
+          <script src="scripts/test_area.js"></script> <!--this is where the javascript comes in-->
+          <!--this is where the python comes in-->
+          
+          <py-script id="prewritten_python">
+            print("python interpreter below:")
+          </py-script>
+          <py-repl id="python_interpreter" auto-generate="true"></py-repl>
+        </div>
       </div>
     </div>
   </div>
