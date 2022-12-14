@@ -1,5 +1,8 @@
+const API_KEY = process.env.API_KEY_OPEN_WEATHER;
+
 let weather = {
-  apiKey: "db72b8114fbd9c9d4954d31f16950834",
+  /*apiKey: "db72b8114fbd9c9d4954d31f16950834",*/
+  apiKey: API_KEY,
   /*apiKey: process.env.API_KEY,*/
   fetchWeather: function (city) {
     fetch(
